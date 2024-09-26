@@ -33,7 +33,7 @@ int main() {
             }
 		essai--;
                 printf("Il vous reste %d essai(s) pour trouver.\n", essai);
-        }
+	    }
 	}
     printf("Désolé, vous avez épuisé tous vos essais. Le nombre magique était %d.\n", random_number);
     return 0;
