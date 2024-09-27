@@ -22,7 +22,7 @@ int main(){
         int resultat = premier_nombre - second_nombre;
 	printf("%d %c %d = %d\n", premier_nombre, operation, second_nombre, resultat);
     }
-	else if(operation == '*')
+      else if(operation == '*')
 	{
         printf("Vous avez choisi d'effectuer une multiplication.\n");
         int resultat = premier_nombre * second_nombre;
@@ -30,26 +30,26 @@ int main(){
     }
 	else if (operation == '+')
 	{
-		printf("Vous avez choisi d'effectuer une addition.\n");
-        int resultat = premier_nombre + second_nombre;
+	printf("Vous avez choisi d'effectuer une addition.\n");
+	int resultat = premier_nombre + second_nombre;
 	printf("%d %c %d = %d\n", premier_nombre, operation, second_nombre, resultat);
     }
 	else if (operation == '/')
 	{
-		printf("Vous avez choisi d'effectuer une division\n.");
+	printf("Vous avez choisi d'effectuer une division\n.");
         int resultat = premier_nombre / second_nombre;
 	printf("%d %c %d = %d\n", premier_nombre, operation, second_nombre, resultat);
     }
 	else if(operation == '%')
 	{
-		printf("Vous avez choisi d'effectuer un modulo.\n");
+	printf("Vous avez choisi d'effectuer un modulo.\n");
         int resultat = premier_nombre % second_nombre;
 	printf("%d %c %d = %d\n", premier_nombre, operation, second_nombre, resultat);
 	}
     
 	else 
-	{
-		printf("l'operation %c n'existe pas",operation);
+    {
+	printf("l'operation %c n'existe pas",operation);
 	}
     return 0;
 }
