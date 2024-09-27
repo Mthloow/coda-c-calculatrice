@@ -46,7 +46,6 @@ int main(){
         int resultat = premier_nombre % second_nombre;
 	printf("%d %c %d = %d\n", premier_nombre, operation, second_nombre, resultat);
     }
-    
 	else 
         {
 	printf("l'operation %c n'existe pas",operation);
