@@ -6,9 +6,9 @@ int main(){
     int second_nombre;
     int resultat;
     char operation;
-	printf("Bienvenue dans la mini calculatrice ! ");
+    printf("Bienvenue dans la mini calculatrice ! ");
     printf("Choisissez une opération : * , + , / , - , %%");
-	scanf("%c", &operation);
+    scanf("%c", &operation);
 
     printf("Choisissez un premier nombre : ");
     scanf("%d", &premier_nombre);
