@@ -6,14 +6,14 @@ int main(){
     int second_nombre;
     int resultat;
     char operation;
-    printf("Bienvenue dans la mini calculatrice ! ");
+    printf("Bienvenue dans la mini calculatrice ! \n");
     printf("Choisissez une opération : * , + , / , - , %%");
     scanf("%c", &operation);
 
-    printf("Choisissez un premier nombre : ");
+    printf("Choisissez un premier nombre : \n");
     scanf("%d", &premier_nombre);
 
-    printf("Choisissez un second nombre : ");
+    printf("Choisissez un second nombre : \n");
     scanf("%d", &second_nombre);
 
     if(operation == '-' )
